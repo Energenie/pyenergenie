@@ -1,0 +1,70 @@
+ADD mock
+type=MockSwitch
+device_id=0000
+
+ADD 2gleft
+type=MIHO009
+device_id=[0x123456, 1]
+
+ADD 2gright
+type=MIHO009
+device_id=[0x123456, 2]
+
+IGN fan
+type=ENER002
+device_id=[0x6C6C6, 1]
+
+IGN controller
+type=MIHO002
+device_id=0000
+
+IGN monitor
+type=MIHO004
+device_id=0000
+
+ADD plus
+type=MIHO005
+device_id=0x373
+
+IGN house
+type=MIHO006
+device_id=441
+
+IGN light_white
+type=MIHO008
+device_id=[0x6C6C6, 1]
+
+ADD dimmer
+type=MIHO010
+device_id=[0x6C6C6, 0]
+
+IGN radiator
+type=MIHO013
+device_id=0000
+
+IGN relay
+type=MIHO014
+device_id=[0x6C6C6, 4]
+
+IGN light_black
+type=MIHO024
+device_id=[0x6C6C6, 2]
+
+IGN light_chrome
+type=MIHO025
+device_id=[0x6C6C6, 3]
+
+IGN light_steel
+type=MIHO026
+device_id=[0x6C6C6, 4]
+
+IGN motion
+type=MIHO032
+device_id=4042
+
+IGN door
+type=MIHO033
+device_id=2817
+
+
+
